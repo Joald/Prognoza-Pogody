@@ -1,11 +1,11 @@
-[info] Updating {file:/E:/ScalaProjects/PrognozaPogody/}prognozapogody...
-[debug] :: resolving dependencies :: default#prognozapogody_2.12;1.0
+[info] Updating {file:/D:/ScalaProjects/Prognoza-Pogody/}prognoza-pogody...
+[debug] :: resolving dependencies :: prognozapogody#prognozapogody_2.12;1.0
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
 [debug] 	refresh = false
 [debug] resolving dependencies for configuration 'compile'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-library;2.12.1 ...
@@ -13,18 +13,18 @@
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.1
 [debug] 	found org.scala-lang#scala-library;2.12.1 in sbt-chain
 [debug] 	[2.12.1] org.scala-lang#scala-library;2.12.1
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving io.reactivex#rxscala_2.12;0.26.5 ...
 [debug] sbt-chain: Checking cache for: dependency: io.reactivex#rxscala_2.12;0.26.5 {compile=[default(compile)]}
 [debug] sbt-chain: module revision found in cache: io.reactivex#rxscala_2.12;0.26.5
 [debug] 	found io.reactivex#rxscala_2.12;0.26.5 in sbt-chain
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -55,27 +55,80 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving io.reactivex#rxjavafx;0.1.2 ...
+[debug] sbt-chain: Checking cache for: dependency: io.reactivex#rxjavafx;0.1.2 {compile=[default(compile)]}
+[info] Resolving io.reactivex#rxjavafx;0.1.2 ...
+[debug] sbt-chain-delegate: Checking cache for: dependency: io.reactivex#rxjavafx;0.1.2 {compile=[default(compile)]}
+[debug] 		tried C:\Users\Admin\.ivy2\local\io.reactivex\rxjavafx\0.1.2\ivys\ivy.xml
+[debug] 	local: no ivy file found for io.reactivex#rxjavafx;0.1.2
+[debug] 		tried https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom
+[debug] 	public: found md file for io.reactivex#rxjavafx;0.1.2
+[debug] 		=> https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom (0.1.2)
+[debug] downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.pom
+[debug] 	[SUCCESSFUL ] io.reactivex#rxjavafx;0.1.2!rxjavafx.pom(pom.original) (408ms)
+[debug] 		tried C:\Users\Admin\.ivy2\local\io.reactivex\rxjavafx\0.1.2\jars\rxjavafx.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar
+[debug] 	found io.reactivex#rxjavafx;0.1.2 in public
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[info] Resolving org.scalaj#scalaj-http_2.12;2.3.0 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalaj#scalaj-http_2.12;2.3.0 {compile=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalaj#scalaj-http_2.12;2.3.0
+[debug] 	found org.scalaj#scalaj-http_2.12;2.3.0 in sbt-chain
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'runtime'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [runtime]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [runtime]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -100,32 +153,68 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'test'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [test]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [runtime]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [test]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [runtime]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -152,17 +241,57 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] resolving dependencies for configuration 'provided'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [provided]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'optional'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [optional]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [optional]
 [debug] resolving dependencies for configuration 'compile-internal'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile-internal]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile-internal]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -171,10 +300,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -183,8 +312,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -213,16 +342,60 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [optional]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [provided]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [optional]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'runtime-internal'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [runtime-internal]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [runtime]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [runtime-internal]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [runtime]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -231,10 +404,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -243,8 +416,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -273,16 +446,60 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [optional]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [optional]
 [debug] resolving dependencies for configuration 'test-internal'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [test-internal]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [test]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [runtime]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [test-internal]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [test]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [runtime]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -295,10 +512,10 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->default(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
@@ -311,8 +528,8 @@
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
@@ -345,30 +562,82 @@
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->org.scala-lang#scala-library;2.12.1 [runtime->compile]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
 [debug] == resolving dependencies io.reactivex#rxscala_2.12;0.26.5->io.reactivex#rxjava;1.2.4 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxscala_2.12;0.26.5 [compile->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [optional]
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [provided]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->runtime(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->master(compile)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.1.8 [runtime->compile(*)]
+[debug] == resolving dependencies io.reactivex#rxjavafx;0.1.2->io.reactivex#rxjava;1.2.4 [runtime->compile(*)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->io.reactivex#rxjavafx;0.1.2 [compile->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->default(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
+[debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->compile]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [compile->compile(*)]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalaj#scalaj-http_2.12;2.3.0->org.scala-lang#scala-library;2.12.1 [runtime->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scalaj#scalaj-http_2.12;2.3.0 [compile->master]
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [optional]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [provided]
 [debug] resolving dependencies for configuration 'plugin'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [plugin]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [plugin]
 [debug] resolving dependencies for configuration 'sources'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [sources]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [sources]
 [debug] resolving dependencies for configuration 'docs'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [docs]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [docs]
 [debug] resolving dependencies for configuration 'pom'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [pom]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [pom]
 [debug] resolving dependencies for configuration 'scala-tool'
-[debug] == resolving dependencies for default#prognozapogody_2.12;1.0 [scala-tool]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->default]
+[debug] == resolving dependencies for prognozapogody#prognozapogody_2.12;1.0 [scala-tool]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->default]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] dependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}
 [info] Resolving org.scala-lang#scala-compiler;2.12.1 ...
 [debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.1
 [debug] 	found org.scala-lang#scala-compiler;2.12.1 in sbt-chain
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->compile]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-library;2.12.1 [compile->master(compile)]
@@ -471,12 +740,12 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang#scala-reflect;2.12.1 [runtime->compile]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->runtime(*)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [runtime->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->master]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->optional(default)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-compiler;2.12.1 [scala-tool->optional(default)]
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] dependency descriptor has been mediated: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->jline#jline;2.14.1 [optional->master(compile)]
@@ -499,34 +768,41 @@
 [debug] sbt-chain: module revision found in cache: jline#jline;2.14.1
 [debug] 	found jline#jline;2.14.1 in sbt-chain
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.12.1->jline#jline;2.14.1 [optional->compile(*)]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->default]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->runtime]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->compile]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->master]
-[debug] == resolving dependencies default#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->optional(default)]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->default]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->runtime]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->compile]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->master]
+[debug] == resolving dependencies prognozapogody#prognozapogody_2.12;1.0->org.scala-lang#scala-library;2.12.1 [scala-tool->optional(default)]
 [debug] ignoring unhandled DependencyDescriptorMediator: class sbt.IvyScala$OverrideScalaMediator
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar
 [debug] 	[NOT REQUIRED] io.reactivex#rxscala_2.12;0.26.5!rxscala_2.12.jar
+[debug] 		tried https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar
+[info] downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar ...
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar
+[debug] 	public: downloading https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar.sha1
+[debug] sha1 OK for https://repo1.maven.org/maven2/io/reactivex/rxjavafx/0.1.2/rxjavafx-0.1.2.jar
+[info] 	[SUCCESSFUL ] io.reactivex#rxjavafx;0.1.2!rxjavafx.jar (563ms)
+[debug] 	[NOT REQUIRED] org.scalaj#scalaj-http_2.12;2.3.0!scalaj-http_2.12.jar
 [debug] 	[NOT REQUIRED] io.reactivex#rxjava;1.2.4!rxjava.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.1!jline.jar
-[debug] :: resolution report :: resolve 996ms :: artifacts dl 24ms
-[debug] 	report for default#prognozapogody_2.12;1.0 compile produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-compile.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 runtime produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-runtime.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 test produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-test.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 provided produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-provided.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 optional produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-optional.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 compile-internal produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-compile-internal.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 runtime-internal produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-runtime-internal.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 test-internal produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-test-internal.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 plugin produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-plugin.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 sources produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-sources.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 docs produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-docs.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 pom produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-pom.xml
-[debug] 	report for default#prognozapogody_2.12;1.0 scala-tool produced in E:\ScalaProjects\PrognozaPogody\target\resolution-cache\reports\default-prognozapogody_2.12-scala-tool.xml
-[debug] 	resolve done (996ms resolve - 24ms download)
+[debug] :: resolution report :: resolve 1788ms :: artifacts dl 577ms
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 compile produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-compile.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 runtime produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-runtime.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 test produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-test.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 provided produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-provided.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 optional produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-optional.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 compile-internal produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-compile-internal.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 runtime-internal produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-runtime-internal.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 test-internal produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-test-internal.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 plugin produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-plugin.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 sources produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-sources.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 docs produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-docs.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 pom produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-pom.xml
+[debug] 	report for prognozapogody#prognozapogody_2.12;1.0 scala-tool produced in D:\ScalaProjects\Prognoza-Pogody\target\resolution-cache\reports\prognozapogody-prognozapogody_2.12-scala-tool.xml
+[debug] 	resolve done (1788ms resolve - 577ms download)
 [info] Done updating.

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SBT: io.reactivex:rxjavafx:0.1.2:jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.reactivex/rxjavafx/jars/rxjavafx-0.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/io.reactivex/rxjavafx/srcs/rxjavafx-0.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -13,11 +13,14 @@ import javafx.scene.text.FontWeight;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import rx.Observable;
+import rx.observables.JavaFxObservable;
 
 public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+
+        Interface.getWeather();
 
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
@@ -31,6 +34,7 @@ public class Main extends Application {
 
         Label temperatureLabel = new Label("Temperature:");
         Text temperatureText = new Text("- °C");
+        Interface.getBank().subscribe(x -> temperatureText.setText(x.toString() + " °C"));
         grid.add(temperatureLabel, 0, 1);
         grid.add(temperatureText, 1, 1);
 
@@ -74,7 +78,7 @@ public class Main extends Application {
         int fieldCount = 9;
 
         Button refresh = new Button("Refresh");
-
+        JavaFxObservable.fromActionEvents(refresh).subscribe(x -> Interface.refreshWeather());
         grid.add(refresh, 2, fieldCount + 1);
 
         Scene scene = new Scene(grid, 800, 600);
