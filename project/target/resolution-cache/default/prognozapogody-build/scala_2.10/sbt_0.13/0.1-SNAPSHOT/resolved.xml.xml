@@ -4,7 +4,7 @@
 		module="prognozapogody-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170607220411"
+		publication="20170609104501"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>

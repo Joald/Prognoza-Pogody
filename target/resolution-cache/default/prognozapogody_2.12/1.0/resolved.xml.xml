@@ -4,7 +4,7 @@
 		module="prognozapogody_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20170608001137"
+		publication="20170610173015"
 	>
 		<description>
 		PrognozaPogody
@@ -35,5 +35,8 @@
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.1" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.1" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="io.reactivex" name="rxscala_2.12" rev="0.26.5" conf="compile->default(compile)"/>
+		<dependency org="io.reactivex" name="rxjavafx" rev="0.1.2" conf="compile->default(compile)"/>
+		<dependency org="org.json4s" name="json4s-native_2.12" rev="3.5.2" conf="compile->default(compile)"/>
+		<dependency org="org.jsoup" name="jsoup" rev="1.8.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>
