@@ -1,7 +1,7 @@
 import rx.subjects.PublishSubject
 
 /**
-  * Created by Admin on 08.06.2017.
+  * Interface between the frontend and the backend.
   */
 object Interface {
   private val weather = new Weather()
@@ -9,6 +9,10 @@ object Interface {
   private val togglePipe = PublishSubjectFactory.stringPipe()
   private val errorPipe = PublishSubjectFactory.stringPipe()
   private val numberOfWeatherProperties = 8
+
+  /**
+    * Getters for PublishSubjects that are used for updating the frontend.
+    */
   def getTemperature: PublishSubject[String] = weather.getTemperaturePipe
   def getPressure: PublishSubject[String] = weather.getPressurePipe
   def getCloudiness: PublishSubject[String] = weather.getCloudinessPipe
@@ -21,6 +25,9 @@ object Interface {
   def getUpdateTime: PublishSubject[String] = weather.getUpdatePipe
   def getError: PublishSubject[String] =  errorPipe
 
+  /**
+    * Changing the source of the weather.
+    */
   def toggleSource(): Unit = {
     if(source == WeatherSource.OPEN_WEATHER) {
       source = WeatherSource.METEO
@@ -33,6 +40,9 @@ object Interface {
     refreshWeather()
   }
 
+  /**
+    * Refreshes the weather.
+    */
   def refreshWeather(): Unit = {
     var weatherArray = new Array[String](0)
     var errorOccured = false

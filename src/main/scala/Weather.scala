@@ -1,10 +1,12 @@
 import rx.subjects.PublishSubject
 
 /**
-  * Created by joald_000 on 08-Jun-17.
+  * Weather class stores weather data and updates it.
   */
 class Weather(){
-
+  /**
+    * Variables storing weather properties.
+    */
   private var temperature = ""
   private var pressure = ""
   private var cloudiness = ""
@@ -14,6 +16,9 @@ class Weather(){
   private var dust2 = ""
   private var dust10 = ""
 
+  /**
+    * PublishSubjects used for updating the Model.
+    */
   private val temperaturePipe = PublishSubjectFactory.stringPipe()
   def getTemperaturePipe: PublishSubject[String] = temperaturePipe
 
@@ -41,41 +46,37 @@ class Weather(){
   private val updatePipe = PublishSubjectFactory.stringPipe()
   def getUpdatePipe: PublishSubject[String] = updatePipe
 
-  private def updateWeather(newTemperature: String,
-                    newPressure: String,
-                    newCloudiness: String,
-                    newHumidity: String,
-                    newWindSpeed: String,
-                    newWindDirection: String,
-                    newDust2: String,
-                    newDust10: String): Unit = {
-    temperature = newTemperature
-    pressure = newPressure
-    cloudiness = newCloudiness
-    humidity = newHumidity
-    windSpeed = newWindSpeed
-    windDirection = newWindDirection
-    dust2 = newDust2
-    dust10 = newDust10
+  /**
+    * Updates weather parameters
+    * @param weather: Array of strings that need to be
+    *               in that particular order:
+    *               temperature
+    *               pressure
+    *               cloudiness
+    *               humidity
+    *               windSpeed
+    *               windDirection
+    *               dust2
+    *               dust10
+    */
+  def updateWeather(weather: Array[String]): Unit = {
+    temperature = weather(0)
+    pressure = weather(1)
+    cloudiness = weather(2)
+    humidity = weather(3)
+    windSpeed = weather(4)
+    windDirection = weather(5)
+    dust2 = weather(6)
+    dust10 = weather(7)
 
-    temperaturePipe onNext temperature + " °C"
-    pressurePipe onNext pressure + " Pa"
-    cloudinessPipe onNext cloudiness + "%"
-    humidityPipe onNext humidity + "%"
-    windSpeedPipe onNext windSpeed + " km/h"
-    windDirectionPipe onNext windDirection + "°"
+    temperaturePipe onNext temperature + (if(temperature == "-") "" else " °C")
+    pressurePipe onNext pressure + (if(pressure == "-") "" else " hPa")
+    cloudinessPipe onNext cloudiness + (if(cloudiness == "-") "" else "%")
+    humidityPipe onNext humidity + (if(humidity == "-") "" else "%")
+    windSpeedPipe onNext windSpeed + (if(windSpeed == "-") "" else " m/s")
+    windDirectionPipe onNext windDirection + (if(windDirection == "-") "" else "°")
     dust2Pipe onNext dust2
     dust10Pipe onNext dust10
     updatePipe onNext Time.getCurrent
   }
-
-  def updateWeather(weather: Array[String]): Unit = {
-    updateWeather(weather(0), weather(1), weather(2), weather(3), weather(4), weather(5), weather(6), weather(7))
-  }
-
-  /*def this() {
-    this()
-    updateWeather(0,0,0,0,0,0)
-  }*/
-
 }
